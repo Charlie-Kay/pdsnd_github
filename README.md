@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+08/10/2021
 
 ### Project Title
-Replace the Project Title
+Exploring Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project uses pandas to explore bikeshare data from 3 states in the US.
+It provides useful insight on user behaviour and trends in the data.
 
 ### Files used
-Include the files used
+Files used include bikeshare data from 3 US states
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+[Udacity Programming for Data Science with Python](https://www.udacity.com/)
+Numerical Python (Second Edition) - Robert Johansson
+[xhlow](https://github.com/xhlow/udacity-bikeshare-project)
+Consulted various stackoverflow, quora, and python documentation pages
