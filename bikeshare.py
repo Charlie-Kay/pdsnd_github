@@ -214,7 +214,7 @@ def user_stats(df):
     try:
         gender_frame = df['Gender'].value_counts()
         print(f"\nBikeshare usage by gender:\n{gender_frame}")
-    except:
+    except KeyError:
         print("\nGender statistics unavailable for this city")
 
     # TO DO: Display earliest, most recent, and most common year of birth
@@ -227,7 +227,7 @@ def user_stats(df):
         print(f"\nThe most recent year of birth is: {most_recent_year}\n")
         print(f"\nThe most common year of birth is: {most_common_year}\n")
 
-    except:
+    except KeyError:
         print("Year of birth statistics unavailable for this city")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
