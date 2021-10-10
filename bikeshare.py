@@ -23,7 +23,7 @@ def get_filters():
     while city not in CITY_DATA.keys():
         print("\nWelcome to Bikeshare.py. Kindly select a city.")
         print("\nYour options are: 1. chicago 2. new york city 3. washington")
-        print("\nCity name input is not case sensitive. Please type name of city fully")
+        print("\nCity name input is not case sensitive. Please type name of city in full")
         #Standardize user input for city
         city = input().lower()
 
