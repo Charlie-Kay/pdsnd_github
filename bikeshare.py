@@ -157,7 +157,9 @@ def station_stats(df):
     print(f"\nThe most commonly used end station: {end_station_mode}")
 
     # TO DO: display most frequent combination of start station and end station trip
-    #Use str.cat to pair start stations and end stations, then find the mode
+    # Use str.cat to pair start stations and end stations
+    # Assign concatenation to new column 'Start - End'
+    # Find mode of 'Start - End'
     df['Start - End'] = df['Start Station'].str.cat(df['End Station'], sep=' and ')
     pair = df['Start - End'].mode()[0]
 
