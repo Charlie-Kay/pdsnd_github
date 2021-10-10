@@ -12,7 +12,7 @@ It provides useful insight on user behaviour and trends in the data.
 Files used include bikeshare data from 3 US states
 
 ### Credits
-[Udacity Programming for Data Science with Python](https://www.udacity.com/)
-Numerical Python (Second Edition) - Robert Johansson
-[xhlow](https://github.com/xhlow/udacity-bikeshare-project)
-Consulted various stackoverflow, quora, and python documentation pages
+[Udacity Programming for Data Science with Python](https://www.udacity.com/)<br/>
+Numerical Python (Second Edition) - Robert Johansson<br/>
+[xhlow](https://github.com/xhlow/udacity-bikeshare-project)<br/>
+Consulted various stackoverflow, quora, and python documentation pages<br/>
